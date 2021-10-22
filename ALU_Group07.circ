@@ -477,43 +477,47 @@
       <circ-anchor facing="east" height="6" width="6" x="77" y="47"/>
     </appear>
     <wire from="(640,700)" to="(640,710)"/>
+    <wire from="(180,780)" to="(180,910)"/>
     <wire from="(670,500)" to="(670,700)"/>
     <wire from="(610,710)" to="(610,720)"/>
     <wire from="(660,600)" to="(1160,600)"/>
     <wire from="(570,530)" to="(620,530)"/>
+    <wire from="(560,780)" to="(610,780)"/>
     <wire from="(680,660)" to="(680,790)"/>
     <wire from="(560,650)" to="(600,650)"/>
-    <wire from="(600,650)" to="(600,740)"/>
     <wire from="(190,640)" to="(190,720)"/>
+    <wire from="(600,650)" to="(600,740)"/>
     <wire from="(570,530)" to="(570,560)"/>
     <wire from="(190,460)" to="(190,550)"/>
     <wire from="(640,500)" to="(640,520)"/>
     <wire from="(190,610)" to="(190,640)"/>
-    <wire from="(610,690)" to="(610,710)"/>
     <wire from="(590,730)" to="(590,750)"/>
-    <wire from="(180,570)" to="(530,570)"/>
+    <wire from="(610,690)" to="(610,710)"/>
     <wire from="(180,590)" to="(530,590)"/>
-    <wire from="(180,630)" to="(530,630)"/>
     <wire from="(180,730)" to="(530,730)"/>
+    <wire from="(180,570)" to="(530,570)"/>
+    <wire from="(180,630)" to="(530,630)"/>
     <wire from="(660,790)" to="(680,790)"/>
     <wire from="(180,630)" to="(180,730)"/>
     <wire from="(640,700)" to="(670,700)"/>
     <wire from="(560,640)" to="(590,640)"/>
-    <wire from="(590,550)" to="(620,550)"/>
     <wire from="(640,500)" to="(670,500)"/>
-    <wire from="(580,660)" to="(610,660)"/>
     <wire from="(590,750)" to="(620,750)"/>
+    <wire from="(590,550)" to="(620,550)"/>
+    <wire from="(580,660)" to="(610,660)"/>
     <wire from="(610,560)" to="(610,660)"/>
     <wire from="(170,460)" to="(190,460)"/>
-    <wire from="(190,610)" to="(530,610)"/>
+    <wire from="(190,770)" to="(530,770)"/>
     <wire from="(190,550)" to="(530,550)"/>
+    <wire from="(190,610)" to="(530,610)"/>
+    <wire from="(190,770)" to="(190,820)"/>
     <wire from="(170,530)" to="(180,530)"/>
     <wire from="(580,540)" to="(580,600)"/>
     <wire from="(580,660)" to="(580,720)"/>
     <wire from="(560,560)" to="(570,560)"/>
     <wire from="(190,550)" to="(190,610)"/>
-    <wire from="(610,710)" to="(620,710)"/>
     <wire from="(610,730)" to="(620,730)"/>
+    <wire from="(610,710)" to="(620,710)"/>
     <wire from="(610,720)" to="(610,730)"/>
     <wire from="(560,520)" to="(620,520)"/>
     <wire from="(580,540)" to="(620,540)"/>
@@ -521,20 +525,24 @@
     <wire from="(500,650)" to="(500,670)"/>
     <wire from="(180,570)" to="(180,590)"/>
     <wire from="(680,660)" to="(1170,660)"/>
+    <wire from="(610,760)" to="(610,780)"/>
+    <wire from="(180,780)" to="(530,780)"/>
     <wire from="(560,600)" to="(580,600)"/>
     <wire from="(560,720)" to="(580,720)"/>
-    <wire from="(500,650)" to="(530,650)"/>
     <wire from="(600,740)" to="(620,740)"/>
+    <wire from="(500,650)" to="(530,650)"/>
     <wire from="(180,530)" to="(180,570)"/>
     <wire from="(560,730)" to="(590,730)"/>
     <wire from="(180,590)" to="(180,630)"/>
-    <wire from="(190,640)" to="(530,640)"/>
     <wire from="(190,720)" to="(530,720)"/>
+    <wire from="(190,640)" to="(530,640)"/>
+    <wire from="(190,720)" to="(190,770)"/>
     <wire from="(180,730)" to="(180,780)"/>
     <wire from="(640,260)" to="(640,500)"/>
-    <wire from="(610,720)" to="(620,720)"/>
+    <wire from="(560,770)" to="(570,770)"/>
+    <wire from="(610,760)" to="(620,760)"/>
     <wire from="(610,560)" to="(620,560)"/>
-    <wire from="(190,720)" to="(190,780)"/>
+    <wire from="(610,720)" to="(620,720)"/>
     <comp lib="6" loc="(265,139)" name="Text">
       <a name="text" val="Do not change the circuit appearance."/>
       <a name="font" val="SansSerif bolditalic 22"/>
@@ -554,14 +562,14 @@
       <a name="select" val="4"/>
       <a name="width" val="12"/>
     </comp>
+    <comp lib="6" loc="(69,164)" name="Text">
+      <a name="text" val="This circuit is used as a block in the main circuit, and its layout must remain unchanged. The circuit called &quot;main&quot; should be the main circuit of this file."/>
+      <a name="halign" val="left"/>
+    </comp>
     <comp lib="1" loc="(560,600)" name="AND Gate">
       <a name="width" val="12"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(69,164)" name="Text">
-      <a name="text" val="This circuit is used as a block in the main circuit, and its layout must remain unchanged. The circuit called &quot;main&quot; should be the main circuit of this file."/>
-      <a name="halign" val="left"/>
     </comp>
     <comp lib="1" loc="(560,560)" name="OR Gate">
       <a name="width" val="12"/>
@@ -593,6 +601,7 @@
       <a name="selloc" val="tr"/>
       <a name="select" val="4"/>
     </comp>
+    <comp loc="(560,770)" name="less than"/>
     <comp lib="6" loc="(515,112)" name="Text">
       <a name="text" val="Do not add/remove inputs or outputs. Do not even change their location or orientation."/>
       <a name="font" val="SansSerif bolditalic 22"/>
@@ -683,6 +692,82 @@
       <a name="width" val="12"/>
       <a name="tristate" val="false"/>
       <a name="labelloc" val="east"/>
+    </comp>
+  </circuit>
+  <circuit name="less than">
+    <a name="circuit" val="less than"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M61,51 Q65,61 69,51" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="30" stroke="#000000" stroke-width="2" width="30" x="50" y="50"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="40" y="63">A</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="40" y="74">B</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="112" y="56">less than</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="112" y="77">overflow</text>
+      <circ-port height="8" pin="90,30" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="90,80" width="8" x="46" y="66"/>
+      <circ-port height="10" pin="330,50" width="10" x="75" y="65"/>
+      <circ-port height="10" pin="470,60" width="10" x="75" y="55"/>
+      <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
+    </appear>
+    <wire from="(90,30)" to="(280,30)"/>
+    <wire from="(310,50)" to="(330,50)"/>
+    <wire from="(390,60)" to="(410,60)"/>
+    <wire from="(450,60)" to="(470,60)"/>
+    <wire from="(200,40)" to="(200,80)"/>
+    <wire from="(230,50)" to="(280,50)"/>
+    <wire from="(120,80)" to="(200,80)"/>
+    <wire from="(470,60)" to="(480,60)"/>
+    <wire from="(200,40)" to="(280,40)"/>
+    <wire from="(310,40)" to="(380,40)"/>
+    <comp lib="0" loc="(470,60)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="12"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(90,30)" name="Pin">
+      <a name="width" val="12"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(380,40)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="12"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="none"/>
+      <a name="bit4" val="none"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+      <a name="bit8" val="none"/>
+      <a name="bit9" val="none"/>
+      <a name="bit10" val="none"/>
+      <a name="bit11" val="0"/>
+    </comp>
+    <comp lib="7" loc="(280,30)" name="12bit CLA"/>
+    <comp lib="0" loc="(230,50)" name="Constant"/>
+    <comp lib="0" loc="(330,50)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(90,80)" name="Pin">
+      <a name="width" val="12"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(450,60)" name="Bit Extender">
+      <a name="in_width" val="1"/>
+      <a name="out_width" val="12"/>
+    </comp>
+    <comp lib="1" loc="(120,80)" name="NOT Gate">
+      <a name="width" val="12"/>
     </comp>
   </circuit>
 </project>
