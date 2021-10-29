@@ -1,0 +1,18 @@
+v2.0 raw
+0 0 0 0 0 1 0 0
+a 800 fff 0 1 0 0 0
+a c00 fff 400 0 0 0 0
+a f80 fff 80 0 0 0 0
+a ff0 fff 10 0 0 0 0
+a ff8 fff 8 0 0 0 0
+a fff fff 1 0 0 0 0
+a 0 fff 0 0 0 0 0
+a 1 fff fff 0 0 0 0
+a 7 fff ff9 0 0 0 0
+a 8 fff ff8 0 0 0 0
+a f fff ff1 0 0 0 0
+a 10 fff ff0 0 0 0 0
+a 7f fff f81 0 0 0 0
+a 80 fff f80 0 0 0 0
+a 400 fff c00 0 0 0 0
+a 7ff fff 801 0 0 0 0
