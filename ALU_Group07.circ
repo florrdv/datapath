@@ -511,20 +511,19 @@
     <wire from="(180,830)" to="(460,830)"/>
     <wire from="(490,720)" to="(510,720)"/>
     <wire from="(490,600)" to="(510,600)"/>
-    <wire from="(180,590)" to="(460,590)"/>
     <wire from="(180,630)" to="(460,630)"/>
+    <wire from="(190,550)" to="(190,590)"/>
     <wire from="(540,560)" to="(760,560)"/>
     <wire from="(540,720)" to="(760,720)"/>
     <wire from="(180,780)" to="(180,830)"/>
     <wire from="(190,870)" to="(190,920)"/>
-    <wire from="(190,610)" to="(460,610)"/>
     <wire from="(190,770)" to="(460,770)"/>
     <wire from="(190,1110)" to="(190,1160)"/>
+    <wire from="(190,590)" to="(190,640)"/>
     <wire from="(540,730)" to="(610,730)"/>
     <wire from="(170,530)" to="(180,530)"/>
     <wire from="(630,620)" to="(630,1000)"/>
     <wire from="(500,530)" to="(760,530)"/>
-    <wire from="(190,550)" to="(190,610)"/>
     <wire from="(550,570)" to="(550,770)"/>
     <wire from="(540,710)" to="(540,720)"/>
     <wire from="(640,630)" to="(760,630)"/>
@@ -545,10 +544,11 @@
     <wire from="(640,630)" to="(640,1060)"/>
     <wire from="(490,640)" to="(520,640)"/>
     <wire from="(510,660)" to="(540,660)"/>
-    <wire from="(180,590)" to="(180,630)"/>
     <wire from="(190,920)" to="(190,960)"/>
     <wire from="(180,880)" to="(460,880)"/>
     <wire from="(190,960)" to="(190,1000)"/>
+    <wire from="(180,560)" to="(460,560)"/>
+    <wire from="(180,600)" to="(460,600)"/>
     <wire from="(190,720)" to="(190,770)"/>
     <wire from="(180,830)" to="(180,880)"/>
     <wire from="(190,820)" to="(460,820)"/>
@@ -571,15 +571,15 @@
     <wire from="(800,600)" to="(1160,600)"/>
     <wire from="(800,790)" to="(840,790)"/>
     <wire from="(650,640)" to="(650,1110)"/>
-    <wire from="(190,610)" to="(190,640)"/>
     <wire from="(610,830)" to="(610,850)"/>
+    <wire from="(180,600)" to="(180,630)"/>
     <wire from="(610,790)" to="(760,790)"/>
     <wire from="(610,830)" to="(760,830)"/>
     <wire from="(490,730)" to="(520,730)"/>
     <wire from="(180,630)" to="(180,730)"/>
     <wire from="(730,810)" to="(760,810)"/>
     <wire from="(440,650)" to="(460,650)"/>
-    <wire from="(180,570)" to="(460,570)"/>
+    <wire from="(180,560)" to="(180,600)"/>
     <wire from="(180,930)" to="(460,930)"/>
     <wire from="(180,730)" to="(460,730)"/>
     <wire from="(670,660)" to="(760,660)"/>
@@ -590,8 +590,10 @@
     <wire from="(190,770)" to="(190,820)"/>
     <wire from="(180,880)" to="(180,930)"/>
     <wire from="(190,870)" to="(460,870)"/>
-    <wire from="(190,550)" to="(460,550)"/>
     <wire from="(190,1110)" to="(460,1110)"/>
+    <wire from="(190,590)" to="(460,590)"/>
+    <wire from="(190,550)" to="(460,550)"/>
+    <wire from="(490,550)" to="(500,550)"/>
     <wire from="(490,1000)" to="(630,1000)"/>
     <wire from="(660,650)" to="(660,1160)"/>
     <wire from="(490,820)" to="(560,820)"/>
@@ -599,14 +601,14 @@
     <wire from="(740,840)" to="(740,1170)"/>
     <wire from="(610,760)" to="(610,770)"/>
     <wire from="(730,810)" to="(730,1010)"/>
+    <wire from="(500,530)" to="(500,550)"/>
     <wire from="(190,1250)" to="(680,1250)"/>
     <wire from="(660,650)" to="(760,650)"/>
-    <wire from="(180,570)" to="(180,590)"/>
     <wire from="(520,550)" to="(760,550)"/>
     <wire from="(520,750)" to="(760,750)"/>
-    <wire from="(500,530)" to="(500,560)"/>
     <wire from="(490,920)" to="(590,920)"/>
     <wire from="(540,690)" to="(540,710)"/>
+    <wire from="(180,530)" to="(180,560)"/>
     <wire from="(190,1220)" to="(190,1250)"/>
     <wire from="(610,800)" to="(610,820)"/>
     <wire from="(490,650)" to="(530,650)"/>
@@ -616,7 +618,6 @@
     <wire from="(550,570)" to="(760,570)"/>
     <wire from="(740,840)" to="(760,840)"/>
     <wire from="(490,1110)" to="(650,1110)"/>
-    <wire from="(180,530)" to="(180,570)"/>
     <wire from="(420,680)" to="(440,680)"/>
     <wire from="(180,780)" to="(460,780)"/>
     <wire from="(540,560)" to="(540,660)"/>
@@ -624,7 +625,6 @@
     <wire from="(190,720)" to="(460,720)"/>
     <wire from="(190,820)" to="(190,870)"/>
     <wire from="(180,730)" to="(180,780)"/>
-    <wire from="(490,560)" to="(500,560)"/>
     <wire from="(190,960)" to="(460,960)"/>
     <wire from="(190,920)" to="(460,920)"/>
     <wire from="(190,640)" to="(460,640)"/>
@@ -634,9 +634,6 @@
     <wire from="(510,660)" to="(510,720)"/>
     <wire from="(670,660)" to="(670,1220)"/>
     <wire from="(510,540)" to="(510,600)"/>
-    <comp lib="6" loc="(492,585)" name="Text">
-      <a name="text" val="Or"/>
-    </comp>
     <comp loc="(490,1220)" name="shift right arithmetic">
       <a name="label" val="Shift right arithmetic"/>
     </comp>
@@ -653,11 +650,6 @@
     </comp>
     <comp loc="(490,920)" name="not equals">
       <a name="label" val="Not equals"/>
-    </comp>
-    <comp lib="1" loc="(490,600)" name="OR Gate">
-      <a name="width" val="12"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </comp>
     <comp lib="7" loc="(460,630)" name="12bit CLA">
       <a name="label" val="Add"/>
@@ -677,9 +669,6 @@
     <comp loc="(490,770)" name="less than">
       <a name="label" val="Less than"/>
     </comp>
-    <comp lib="6" loc="(488,545)" name="Text">
-      <a name="text" val="And"/>
-    </comp>
     <comp loc="(490,720)" name="12-bit numeric subtraction">
       <a name="label" val="Subtract"/>
     </comp>
@@ -698,11 +687,6 @@
     <comp loc="(490,520)" name="generate 0">
       <a name="label" val="Generate 0"/>
     </comp>
-    <comp lib="1" loc="(490,560)" name="AND Gate">
-      <a name="width" val="12"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="6" loc="(515,112)" name="Text">
       <a name="text" val="Do not add/remove inputs or outputs. Do not even change their location or orientation."/>
       <a name="font" val="SansSerif bolditalic 22"/>
@@ -717,6 +701,9 @@
       <a name="label" val="overflow"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp loc="(490,590)" name="12-bit OR">
+      <a name="label" val="Or"/>
+    </comp>
     <comp loc="(490,870)" name="equals">
       <a name="label" val="Equals"/>
     </comp>
@@ -730,6 +717,9 @@
     </comp>
     <comp loc="(490,820)" name="greater than">
       <a name="label" val="Greater than"/>
+    </comp>
+    <comp loc="(490,550)" name="12-bit AND">
+      <a name="label" val="And"/>
     </comp>
     <comp lib="1" loc="(490,960)" name="NOT Gate">
       <a name="width" val="12"/>
