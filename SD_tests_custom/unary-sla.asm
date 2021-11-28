@@ -1,7 +1,7 @@
 LOADMEM
 zero r0 # 0 instruction that is actually used as immediate...
 lw r1 r0 4 # 1
-sll r1 r1 # 2
+sla r1 r1 # 2
 CHECKMEM
 r0: 0
 r1: 50
@@ -19,7 +19,7 @@ END
 LOADMEM
 zero r0 # 0 instruction that is actually used as immediate...
 lw r1 r0 4 # 1
-sll r1 r1 # 2
+sla r1 r1 # 2
 CHECKMEM
 r0: 0
 r1: 26
