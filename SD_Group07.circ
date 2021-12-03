@@ -125,11 +125,13 @@
     <wire from="(820,620)" to="(820,630)"/>
     <wire from="(810,760)" to="(870,760)"/>
     <wire from="(1360,90)" to="(1400,90)"/>
+    <wire from="(540,650)" to="(600,650)"/>
     <wire from="(850,130)" to="(950,130)"/>
     <wire from="(50,560)" to="(50,640)"/>
     <wire from="(810,740)" to="(850,740)"/>
     <wire from="(430,540)" to="(540,540)"/>
     <wire from="(1060,90)" to="(1060,160)"/>
+    <wire from="(540,620)" to="(540,650)"/>
     <wire from="(500,940)" to="(740,940)"/>
     <wire from="(730,520)" to="(730,600)"/>
     <wire from="(1020,650)" to="(1020,730)"/>
@@ -212,6 +214,7 @@
     <wire from="(370,620)" to="(390,620)"/>
     <wire from="(810,720)" to="(900,720)"/>
     <wire from="(30,640)" to="(50,640)"/>
+    <wire from="(700,650)" to="(700,880)"/>
     <wire from="(190,600)" to="(210,600)"/>
     <wire from="(1270,650)" to="(1270,710)"/>
     <wire from="(940,700)" to="(940,890)"/>
@@ -228,7 +231,6 @@
     <wire from="(80,540)" to="(90,540)"/>
     <wire from="(600,520)" to="(730,520)"/>
     <wire from="(1070,130)" to="(1070,170)"/>
-    <wire from="(620,660)" to="(700,660)"/>
     <wire from="(1000,620)" to="(1010,620)"/>
     <wire from="(810,630)" to="(820,630)"/>
     <wire from="(1360,90)" to="(1360,200)"/>
@@ -250,11 +252,8 @@
     <wire from="(1160,630)" to="(1160,660)"/>
     <wire from="(810,800)" to="(910,800)"/>
     <wire from="(80,540)" to="(80,620)"/>
-    <wire from="(560,630)" to="(560,660)"/>
-    <wire from="(700,660)" to="(700,880)"/>
     <wire from="(210,80)" to="(210,110)"/>
     <wire from="(210,110)" to="(370,110)"/>
-    <wire from="(560,660)" to="(580,660)"/>
     <wire from="(1040,630)" to="(1050,630)"/>
     <wire from="(1390,620)" to="(1390,670)"/>
     <wire from="(1270,710)" to="(1410,710)"/>
@@ -265,6 +264,7 @@
     <wire from="(210,640)" to="(210,940)"/>
     <wire from="(1000,660)" to="(1160,660)"/>
     <wire from="(140,630)" to="(220,630)"/>
+    <wire from="(630,650)" to="(700,650)"/>
     <wire from="(1080,500)" to="(1080,600)"/>
     <wire from="(210,600)" to="(220,600)"/>
     <wire from="(210,640)" to="(220,640)"/>
@@ -448,10 +448,6 @@
       <a name="addrWidth" val="12"/>
       <a name="dataWidth" val="13"/>
     </comp>
-    <comp lib="0" loc="(620,660)" name="Bit Extender">
-      <a name="in_width" val="3"/>
-      <a name="out_width" val="12"/>
-    </comp>
     <comp lib="0" loc="(950,130)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="12"/>
@@ -475,6 +471,7 @@
     <comp lib="5" loc="(30,940)" name="Button">
       <a name="label" val="reset"/>
     </comp>
+    <comp loc="(630,650)" name="Immediate Logic"/>
     <comp lib="0" loc="(1100,90)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
