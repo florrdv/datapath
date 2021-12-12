@@ -1,37 +1,21 @@
 LOADMEM
-# For debugging purposes
-zero r1 # 0
-# We'll be storing 
-# n-2 in r1
-# n-1 in r2
-# offset to increment our address by in r3 (1)
-# temporary result in r4
-# target address in r5
+zero r1         # 0
+ori r1 1        # 1, r1 contains the first fib num=1
+cp r2 r1        # 2, r2 contains the second fib num=1
+ori r4 1        # 3, r4=offset 
+sw r1 r5 0      # 4, storing the first number=1
+add r5 r5 r4    # 5, setting the offset
+sw r2 r5 0      # 6, storing the second number=1
+add r5 r5 r4    # 7, setting the offset
+# LOOP START:
+add r3 r2 r1    # 8, r3=r2+r1=the next fib number
+sw r3 r5 0      # 9, storing the fib number in r5
+cp r1 r2        # 10, making the second fib number the first
+cp r2 r3        # 11, making the result the second fib number
+add r5 r5 r4    # 12, setting the offset
+j 8             # 13, looping back
 
-# Let's initialize these registers
-ori r1 0 # 1
-ori r2 1 # 2
-ori r3 1 # 3
-ori r5 2 # 4, we'll be initializing this at 2 as we'll be storing 0 and 1 in the first two memory slots
-
-# Let's store 1
-sw r2 r0 1 # 5
-
-# Main loop
-add r4 r1 r2 # 6, add the numbers together and store the values in our temporary register r4
-sw r4 r5 0 # 7, store the result in memory
-cp r1 r2 # 8, update n-2 
-cp r2 r4 # 9, update n-1
-add r5 r5 r3 # 10, update the target address
-j 6
 CHECKMEM
-r0: 0
-r1: 0
-r2: 0
-r3: 0
-r4: 0
-r5: 0
-r6: 0
-r7: 0
-pc: 2
+pc: 8
+
 END
