@@ -73,9 +73,9 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#ALU_Group07.circ" name="7"/>
+  <lib desc="file#ALU.circ" name="7"/>
   <lib desc="file#memory.circ" name="8"/>
-  <lib desc="file#csa-project-adders.circ" name="9"/>
+  <lib desc="file#adders.circ" name="9"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>

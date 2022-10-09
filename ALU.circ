@@ -67,7 +67,7 @@
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#csa-project-adders.circ" name="7"/>
+  <lib desc="file#adders.circ" name="7"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
