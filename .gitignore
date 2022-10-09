@@ -1,2 +1,3 @@
 *.report*
 *.test*
+.DS_Store
